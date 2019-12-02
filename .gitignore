@@ -1,0 +1,29 @@
+# JetBrains IDEs
+.idea
+
+# Ignore installed node modules
+node_modules
+
+# Ignore final files
+dist
+
+.vscode/*
+!.vscode/snippets.code-snippets
+
+
+# Ignore logs
+npm-debug.log
+
+app
+!app/package.json
+yarn-error.log
+src/config/development.js
+flow-typed/npm/partner-module.js
+.DS_STORE
+coverage
+
+netlify.toml
+.netlify
+
+#mock temp files
+mock-server/*.log
